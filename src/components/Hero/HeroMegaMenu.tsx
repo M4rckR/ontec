@@ -10,7 +10,9 @@ export const HeroMegaMenu = () => {
                 <IoMenuSharp className="w-full h-full text-white cursor-pointer"/>
             </NavigationMenuTrigger>
             <NavigationMenuContent>
-                <NavigationMenuLink>Link</NavigationMenuLink>
+                <NavigationMenuLink className="border-b px-4 py-4 font-semibold text-xs cursor-pointer hover:bg-gray-50 transition-all duration-150">LINK</NavigationMenuLink>
+                <NavigationMenuLink className="border-b px-4 py-4 font-semibold text-xs cursor-pointer hover:bg-gray-50 transition-all duration-150">OPCIONES</NavigationMenuLink>
+                <NavigationMenuLink className="px-4 py-4 font-semibold text-xs cursor-pointer hover:bg-gray-50 transition-all duration-150">OPERACIONES</NavigationMenuLink>
             </NavigationMenuContent>
             </NavigationMenuItem>
         </NavigationMenuList>
