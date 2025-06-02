@@ -44,6 +44,7 @@ export const HeroCarousel = () => {
                             alt="Banner 1"
                             height={500}
                             width={1920}
+                            unoptimized
                             className="object-cover w-full"
                         />
                     </div>
@@ -55,6 +56,7 @@ export const HeroCarousel = () => {
                             alt="Banner 1"
                             height={500}
                             width={1920}
+                            unoptimized
                             className="object-cover w-full"
                         />
                     </div>
@@ -66,6 +68,7 @@ export const HeroCarousel = () => {
                             alt="Banner 1"
                             height={500}
                             width={1920}
+                            unoptimized
                             className="object-cover w-full"
                         />
                     </div>

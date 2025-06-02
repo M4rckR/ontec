@@ -4,7 +4,17 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-    --color-m-blue-main: #255BA5
+    --color-m-blue-main: #255BA5;
+    --color-m-bg-cintillo: #E0BDA7;
+    --color-m-orange: #ED7930;
+    --color-m-gray: #535353;
+
+    /* Poppins */
+    --font-poppins: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--font-poppins);
 }
 
 @theme inline {
