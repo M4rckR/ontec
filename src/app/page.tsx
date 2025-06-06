@@ -1,28 +1,25 @@
 import { HeroCarousel } from "@/components/Hero/HeroCarousel";
-import { HeroNav } from "@/components/Hero/HeroNav";
 import { Gallery } from "@/components/Gallery/Gallery";
-import { CintilloOfert } from "@/components/Hero/CintilloOfert";
 import { CtaEmail } from "@/components/CtaEmail/CtaEmail";
-import { Footer } from "@/components/Footer/Footer";
+import { CarouselItemTienda } from "@/components/CarouselItemTienda/CarouselItemTienda";
+import { CarouselMarcas } from "@/components/CarouselItemTienda/CarouselMarcas";
 
 export default function Home() {
   return (
     <>
 
       <header>
-        <CintilloOfert />
-        <HeroNav/>  
         <HeroCarousel />
       </header>
 
       <main>
         <Gallery />
+        <CarouselItemTienda />
+        <CarouselMarcas />
         <CtaEmail />
       </main>
 
-      <footer>
-        <Footer />
-      </footer>
+
     </>
   );
 }

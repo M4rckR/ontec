@@ -1,6 +1,16 @@
+import Image from "next/image"
+
 export const CtaEmail = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8 md:py-12 lg:py-24">
+        <Image 
+          src={"/images/cta/promo-epson.jpg"} 
+          alt="Cta Email" 
+          width={1000} 
+          height={200} 
+          className="w-full h-full object-cover rounded-3xl mb-6" 
+          unoptimized
+        />
         <div className="bg-m-orange rounded-xl py-4 px-8 text-white">
             <h2 className=" text-xl font-bold text-center md:text-left">¡Suscríbete AHORA!</h2>
             <p>Y reciben nuestras ofertas exclusivas, solo para subscriptores.</p>

@@ -231,8 +231,6 @@ function CarouselNext({
   )
 }
 
-export type { UseEmblaCarouselType }
-
 export {
   type CarouselApi,
   Carousel,
@@ -240,5 +238,4 @@ export {
   CarouselItem,
   CarouselPrevious,
   CarouselNext,
-  useCarousel,
 }

@@ -6,3 +6,11 @@ export const formSearchSchema = z.object({
 
 
 
+export const productSchema = z.object({
+    id: z.string(),
+    name: z.string(),
+    priceStart: z.number(),
+    priceFinal: z.number(),
+    image: z.string(),
+    discount: z.number().optional(),
+})
